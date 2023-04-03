@@ -1,4 +1,6 @@
 import requests as rq
+
+
 POKE_API_URL = 'https://pokeapi.co/api/v2/pokemon/'
 
 def main():
@@ -28,6 +30,7 @@ def search_pokemon(search_term):
         print(f"Response code: {response.status_code} {response.reason}")
     
     return 
-    
+
+
 if __name__ == '__main__':
     main()
